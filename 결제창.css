@@ -1,0 +1,42 @@
+* {
+    font-family: 'Gowun Batang', serif;
+}
+
+.squid{
+    width:540px;
+    margin: auto;
+}
+.squid_img {
+    background-image: url("https://m.sabock.co.kr/web/product/medium/202103/adf9311d267ed96f3bfd857f23dd8807.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    margin: 50px auto 10px auto;
+    border-radius: 7px;
+}
+
+.content {
+    margin: 0px auto 0px auto;
+    text-align: left;
+}
+
+.squid_price {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.input-group-text {
+    height: 35px;
+    width: 90px;
+    text-align: center;
+}
+.custom-select{
+    height: 35px;
+}
+.btn-primary{
+    padding: 5px 10px 5px 10px;
+    width: auto;
+    margin: auto;
+    display: block;
+
+}

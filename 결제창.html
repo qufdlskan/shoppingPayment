@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>남성의류를 파는 유니크 사이트</title>
+<link rel="stylesheet" href="결제창.css">
+<script>history.back()</script>
+</head>
+<script>
+    function order(){
+        alert('주문이 완료되었습니다! 감사합니다 :)')
+    }
+</script>
+</head>
+
+<body>
+<div class="squid">
+    <div class="squid_img"></div>
+    <div class="content">
+        <h1>옷 <span class="squid_price">가격:전페이지확인</span></h1>
+        <p>이것이 옷이야, 예술이야? 보는 사람마다 헷깔리게 만드는 멋진 옷 둘이 입다 하나 죽어도 모르는 멋진 옷, 지금 주문하세요!</p>
+        <p>경고! 잘못된 주소 입력이나 입력이 안된경우 배송이 안되거나 잘못 될수도 있으니 확인바랍니다!</p>
+    </div>
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">주문자 이름</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">수량</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+            <option selected>-- 수량을 선택하세요 --</option>
+            <option value="1">한벌</option>
+            <option value="2">두벌</option>
+            <option value="3">세벌</option>
+        </select>
+    </div>
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">주소</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">이름</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+    </div>
+    <button type="button" onclick="order()" class="btn btn-primary">주문하기</button>
+</div>
+</body>
+</html>
